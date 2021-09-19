@@ -1,0 +1,29 @@
+db.companies.insert([
+ { 
+ "First_Name":"John" 
+"Last_Name":"Smith" 
+} 
+ { 
+ "First_Name":"Steven" 
+"Last_Name":"Curry" 
+} 
+ { 
+ "First_Name":"Kevin " 
+"Last_Name":"Durant" 
+} 
+ { 
+ "First_Name":"Lebron " 
+"Last_Name":"James" 
+} 
+ { 
+ "First_Name":"Siddharth" 
+"Last_Name":"Arya" 
+} 
+ { 
+ "First_Name":"Shourya" 
+"Last_Name":"Malik" 
+} 
+ { 
+ "First_Name":"Ravish" 
+"Last_Name":"Goel" 
+} 
