@@ -1,0 +1,24 @@
+// A Round Graph
+digraph {
+	node [shape=box]
+	A [label="End User"]
+	B [label="Communication Channels"]
+	C [label="Helpdesk Operator"]
+	D [label="Helpdesk Software"]
+	E [label="Support Team Member(s) of Department(s)"]
+	F [label=Chatbot]
+	node [shape=cylinder]
+	G [label="Solution Bank"]
+	H [label=Database]
+	A -> B
+	A -> D
+	B -> C
+	B -> D
+	B -> F
+	C -> B
+	D -> E
+	D -> A
+	D -> H
+	E -> D
+	F -> G
+}
